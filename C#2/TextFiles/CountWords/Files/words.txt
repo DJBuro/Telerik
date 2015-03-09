@@ -1,0 +1,9 @@
+program
+text
+file
+Write
+word
+line
+numbers
+lines
+reads
