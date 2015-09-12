@@ -1,0 +1,22 @@
+﻿th {
+    background-color: #67fb0e;
+    color:white;
+    width:100px;
+    text-align:left
+}
+
+img {
+    width:20px;
+    height:14px;
+}
+.oddRows {
+    background-color:whitesmoke;
+}
+
+.evenRows {
+    background-color:wheat;
+}
+
+.names {
+    width:160px;
+}

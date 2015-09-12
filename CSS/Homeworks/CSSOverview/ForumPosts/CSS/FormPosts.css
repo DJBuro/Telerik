@@ -1,0 +1,43 @@
+﻿body {
+    background-color: #aaa;
+}
+
+article > header > h1 {
+    text-align:left;
+}
+
+h1 {
+    text-align:center;
+    color:wheat;
+}
+
+ul {
+    text-align:center;
+    list-style-type:none;
+}
+
+li > a {
+    color:white;
+    text-decoration:none;
+}
+
+li:last-of-type > a {
+    text-decoration:underline;
+}
+
+footer > p {
+    font-size:12px;
+}
+
+footer > p > a {
+    text-decoration:none;
+    color:#000000
+}
+
+body > footer {
+    text-align:center;
+}
+
+.current {
+    background-color: #cccccc;
+}

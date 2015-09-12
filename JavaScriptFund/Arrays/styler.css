@@ -1,0 +1,21 @@
+body
+{
+    background-color:black;
+    color:lime;
+    text-align:center;
+}
+body > div  {
+    border:1px solid lime;
+    border-radius:5px;
+    display:inline-block;
+    min-height:20px;
+    min-width:200px;
+    padding:5px;
+    color:yellow;
+}
+hr {
+    background-color:lime;
+    height:2px;
+    width:94%;
+    border:0px;
+}

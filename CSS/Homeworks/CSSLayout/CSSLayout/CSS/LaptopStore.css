@@ -1,0 +1,35 @@
+﻿div {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 800px;
+    height:615px;
+}
+
+section {
+    width: 600px;
+    border: 2px solid black;
+    padding: 10px;
+    float: left;
+    margin: 10px;
+}
+
+fieldset {
+    width: 263px;
+    height: 160px;
+    font-family: Andalus;
+    display: inline-block;
+}
+
+legend {
+    font-family:Arial;
+}
+
+img {
+    float:left;
+}
+
+aside {
+    display: inline-block;
+    position: relative;
+    bottom: -170px;
+}

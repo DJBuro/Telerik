@@ -1,0 +1,42 @@
+﻿div {
+    background-color:#284b40;
+    border-radius:10px;
+    padding:5px;
+}
+
+nav {
+    margin-bottom: 20px;
+    padding:0px;
+}
+
+button {
+    width:110px;
+    height:50px;
+    background-color:#365a4f;
+    color:#7ca79a;
+    margin:0px;
+    border:none;
+}
+
+button:hover {
+    background-color:#284b40;
+}
+
+button::selection {
+    color:white;
+    text-decoration:underline;
+}
+
+section {
+    width: 300px;
+    float: left;
+}
+
+article {
+    font-size:16px;
+    color:white;
+}
+
+article:hover {
+    background-color:#393e3c;
+}

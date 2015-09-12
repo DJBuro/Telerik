@@ -1,0 +1,32 @@
+﻿body {
+    background-color: #505050
+}
+
+h1 {
+    color:lightgray
+}
+
+b {
+    color:red
+}
+
+dt {
+    font-style:italic;
+    color:whitesmoke
+}
+
+dd {
+    color: greenyellow;
+}
+
+.personalInfo {
+    color: #faf89f
+}
+
+.others {
+    color:lightgray
+}
+
+.status {
+    color:orange
+}

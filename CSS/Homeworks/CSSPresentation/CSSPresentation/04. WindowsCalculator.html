@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="CSS/WindowsCalculator.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="wraper">
+        <div id="header">
+            <ul>
+                <li>View</li>
+                <li>Edit</li>
+                <li>Help</li>
+            </ul>
+        </div>
+        <div id="text">
+            <input type="text" value="8854455" />
+        </div>
+        <div id="bits">
+            <span class="first_row">0000</span>
+            <span class="first_row">0000</span>
+            <span class="first_row">0000</span>
+            <span class="first_row">0000</span>
+            <span class="first_row">0000</span>
+            <span class="first_row">0000</span>
+            <span class="first_row">0000</span>
+            <span class="first_row">0000</span>
+            <br />
+            <span class="second_row first_td">63</span>
+            <span class="second_row second_td">47</span>
+            <span class="second_row third_td">32</span>
+            <br />
+            <span class="third_row">0000</span>
+            <span class="third_row">0000</span>
+            <span class="third_row">1000</span>
+            <span class="third_row">0111</span>
+            <span class="third_row">0001</span>
+            <span class="third_row">1011</span>
+            <span class="third_row">1011</span>
+            <span class="third_row">0111</span>
+            <br />
+            <span class="fourth_row first_td">31</span>
+            <span class="fourth_row second_td">15</span>
+            <span class="fourth_row" id="zero_td">0</span>
+        </div>
+        <div id="words_and_numeric_system">
+            <div id="numeric_system">
+                <form>
+                    <input type="radio" name="numeric">Hex<br>
+                    <input type="radio" name="numeric">Dec<br>
+                    <input type="radio" name="numeric">Oct<br>
+                    <input type="radio" name="numeric">Bin<br>
+                </form>
+            </div>
+            <div id="words">
+                <form>
+                    <input type="radio" name="word">Qword<br>
+                    <input type="radio" name="word">Dword<br>
+                    <input type="radio" name="word">Word<br>
+                    <input type="radio" name="word">Byte<br>
+                </form>
+            </div>
+        </div>
+        <table id="buttons">
+            <tr id="button_first_row">
+                <td><button class="colorless_button"></button></td>
+                <td><button>Mod</button></td>
+                <td><button class="colorless_button">A</button></td>
+                <td><button class="colorless_button">MC</button></td>
+                <td><button class="colorless_button">MR</button></td>
+                <td><button class="colorless_button">MS</button></td>
+                <td><button class="colorless_button">M+</button></td>
+                <td><button class="colorless_button">M-</button></td>
+            </tr>
+            <tr id="button_second_row">
+                <td><button>(</button></td>
+                <td><button>)</button></td>
+                <td><button class="colorless_button">B</button></td>
+                <td><button>←</button></td>
+                <td><button>CE</button></td>
+                <td><button>C</button></td>
+                <td><button>±</button></td>
+                <td><button class="colorless_button">√</button></td>
+            </tr>
+            <tr id="button_third_row">
+                <td><button>RoL</button></td>
+                <td><button>RoR</button></td>
+                <td><button class="colorless_button">C</button></td>
+                <td><button>7</button></td>
+                <td><button>8</button></td>
+                <td><button>9</button></td>
+                <td><button>/</button></td>
+                <td><button class="colorless_button">%</button></td>
+            </tr>
+            <tr id="button_fourth_row">
+                <td><button>Or</button></td>
+                <td><button>Xor</button></td>
+                <td><button class="colorless_button">D</button></td>
+                <td><button>4</button></td>
+                <td><button>5</button></td>
+                <td><button>6</button></td>
+                <td><button>*</button></td>
+                <td><button class="colorless_button">1/x</button></td>
+            </tr>
+            <tr id="button_fifth_row">
+                <td><button>Lsh</button></td>
+                <td><button>Rsh</button></td>
+                <td><button class="colorless_button">E</button></td>
+                <td><button>1</button></td>
+                <td><button>2</button></td>
+                <td><button>3</button></td>
+                <td><button>-</button></td>
+                <td rowspan="2" id="equal_button"><button>=</button></td>
+            </tr>
+            <tr id="button_sixth_row">
+                <td><button>Not</button></td>
+                <td><button>And</button></td>
+                <td><button class="colorless_button">F</button></td>
+                <td colspan="2"><button>0</button></td>
+                <td><button class="colorless_button">.</button></td>
+                <td><button>+</button></td>
+            </tr>
+        </table>
+
+    </div>
+</body>
+</html>

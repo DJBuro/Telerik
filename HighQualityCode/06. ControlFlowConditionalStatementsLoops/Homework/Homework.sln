@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.RefactorTheFollowingIfStatements", "Homework\02.RefactorTheFollowingIfStatements.csproj", "{0ACD8688-DF7F-41A9-83D4-2A76E1DCC617}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.RefactorTheFollowingLoop", "03.RefactorTheFollowingLoop\03.RefactorTheFollowingLoop.csproj", "{BB87373A-1CBF-4F28-AFD6-C9395E25EDD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.ClassChefInCSharp", "ClassChefInCSharp\01.ClassChefInCSharp.csproj", "{5DEC53BC-F9C5-43F8-8604-589CCA0D1334}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0ACD8688-DF7F-41A9-83D4-2A76E1DCC617}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ACD8688-DF7F-41A9-83D4-2A76E1DCC617}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ACD8688-DF7F-41A9-83D4-2A76E1DCC617}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ACD8688-DF7F-41A9-83D4-2A76E1DCC617}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB87373A-1CBF-4F28-AFD6-C9395E25EDD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB87373A-1CBF-4F28-AFD6-C9395E25EDD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB87373A-1CBF-4F28-AFD6-C9395E25EDD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB87373A-1CBF-4F28-AFD6-C9395E25EDD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DEC53BC-F9C5-43F8-8604-589CCA0D1334}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DEC53BC-F9C5-43F8-8604-589CCA0D1334}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DEC53BC-F9C5-43F8-8604-589CCA0D1334}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DEC53BC-F9C5-43F8-8604-589CCA0D1334}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

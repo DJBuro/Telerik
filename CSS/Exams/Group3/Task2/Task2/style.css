@@ -1,0 +1,94 @@
+﻿html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Constantina, Georgia, 'Nimbus Roman No9 L', serif;
+}
+
+#wrapper {
+    width: 960px;
+}
+
+ul.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #fff;
+}
+
+    ul.menu li {
+        background-color: #B6FF00;
+        border: 1px solid white;
+        border-radius: 15px;
+        margin-left: 5px;
+        margin-top: 10px;
+        padding-top: 3px;
+        padding-bottom: 5px;
+        border: 10px;
+        width: 170px;
+        height: 30px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+        ul.menu li a {
+            text-decoration: none;
+            color: #000;
+            vertical-align: -webkit-baseline-middle;
+        }
+
+.content {
+    visibility: hidden;
+}
+
+ul.menu li:hover {
+    text-decoration: underline;
+}
+
+    ul.menu li:hover .content {
+        visibility: visible;
+        position: relative;
+        left: 170px;
+        top: -37px;
+    }
+
+        ul.menu li:hover .content ul {
+            list-style: none;
+            padding: 0;
+        }
+
+            ul.menu li:hover .content ul li {
+                width: 540px;
+                height: 40px;
+                border-radius: 10px;
+                margin-top: 10px;
+                margin-left: 0px;
+                background-color: #008000;
+                text-align: left;
+                padding-top: 15px;
+                padding-bottom: 3px;
+            }
+
+                ul.menu li:hover .content ul li a {
+                    text-decoration: none;
+                    color: #fff;
+                    margin-left: 20px;
+                }
+
+                ul.menu li:hover .content ul li img {
+                    visibility: hidden;
+                }
+
+                ul.menu li:hover .content ul li:hover {
+                    text-decoration: underline;
+                    height: 310px;
+                }
+
+                    ul.menu li:hover .content ul li:hover img {
+                        visibility: visible;
+                        width: 500px;
+                        height: 260px;
+                        margin-left: 20px;
+                        border-radius: 10px;
+                        margin-top: 10px;
+                    }

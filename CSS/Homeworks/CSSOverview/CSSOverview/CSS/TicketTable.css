@@ -1,0 +1,34 @@
+﻿body {
+    background-color: #505050
+}
+
+h1 {
+    color:lightgray
+}
+
+b {
+    color:red
+}
+
+img {
+    width:10px;
+    height:10px
+}
+
+.names {
+    width:120px;
+    color:whitesmoke;
+    font-style:italic
+}
+
+.personalInfo {
+    color: #faf89f
+}
+
+.others {
+    color:lightgray
+}
+
+.status {
+    color:orange
+}
