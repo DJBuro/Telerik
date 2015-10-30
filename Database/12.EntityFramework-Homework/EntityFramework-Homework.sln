@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task01.CreateDbContextForNorthwind", "Task01.CreateDbContextForNorthwind\Task01.CreateDbContextForNorthwind.csproj", "{2F2F3683-330E-4272-ACE6-1F27587C98E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task02.CreateDaoDatabaseClass", "Task02.CreateDaoDatabaseClass\Task02.CreateDaoDatabaseClass.csproj", "{3B391D8B-CB96-4B54-B348-EC71E4CEEF93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task03-05.NorthwindMethods", "Task03-05.NorthwindMethods\Task03-05.NorthwindMethods.csproj", "{D86235FA-DF8F-45DF-BA3B-A0C9C18733FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F2F3683-330E-4272-ACE6-1F27587C98E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F2F3683-330E-4272-ACE6-1F27587C98E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F2F3683-330E-4272-ACE6-1F27587C98E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F2F3683-330E-4272-ACE6-1F27587C98E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B391D8B-CB96-4B54-B348-EC71E4CEEF93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B391D8B-CB96-4B54-B348-EC71E4CEEF93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B391D8B-CB96-4B54-B348-EC71E4CEEF93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B391D8B-CB96-4B54-B348-EC71E4CEEF93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D86235FA-DF8F-45DF-BA3B-A0C9C18733FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D86235FA-DF8F-45DF-BA3B-A0C9C18733FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D86235FA-DF8F-45DF-BA3B-A0C9C18733FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D86235FA-DF8F-45DF-BA3B-A0C9C18733FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
