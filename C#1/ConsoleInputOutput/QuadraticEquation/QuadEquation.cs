@@ -7,19 +7,8 @@ class QuadEquation
 {
     static void Main()
     {
-        Console.WriteLine("Quadratic Equation! Please enter a, b, c.");
-        Console.Write("a=");
         double a = double.Parse(Console.ReadLine());
-        while (a == 0)
-        {
-            Console.WriteLine("This is not quadratic equation");
-            Console.WriteLine("Please insert number != 0");
-            a = double.Parse(Console.ReadLine());
-        }
-
-        Console.Write("b=");
         double b = double.Parse(Console.ReadLine());
-        Console.Write("c=");
         double c = double.Parse(Console.ReadLine());
 
         double discriminant = Math.Sqrt((b * b) - (4 * a * c));
@@ -28,16 +17,16 @@ class QuadEquation
 
         if (discriminant > 0)
         {
-            Console.WriteLine("x1={0}", resultOne);
-            Console.WriteLine("x2={0}", resultTwo);
+            Console.WriteLine(Math.Min(resultOne, resultTwo).ToString("F2"));
+            Console.WriteLine(Math.Max(resultOne, resultTwo).ToString("F2"));
         }
         else if (discriminant == 0)
         {
-            Console.WriteLine("x={0}", resultOne);
+            Console.WriteLine(resultOne.ToString("F2"));
         }
         else 
         {
-            Console.WriteLine("Quadratic equation don't have real solution");
+            Console.WriteLine("no real roots");
         }
     }
 }

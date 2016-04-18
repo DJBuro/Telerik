@@ -3,12 +3,14 @@
 //the entire ASCII table of characters on the console (characters from 0 to 255).
 
 using System;
-    class ASCIITable
+
+class PrintTheASCIITable
+{
+    static void Main()
     {
-        static void Main()
+        for (int i = 33; i <= 126; i++)
         {
-            for (char i = '\u0000'; i <= '\u00FF'; i++)
-            Console.WriteLine(i);
-            
+            Console.Write("{0}", (char)i);
         }
     }
+}

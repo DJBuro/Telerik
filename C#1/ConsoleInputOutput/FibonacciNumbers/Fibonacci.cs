@@ -8,18 +8,22 @@ class Fibonacci
 {
     static void Main()
     {
-        Console.WriteLine("Please enter how much numbers u want to see: ");
         int number = int.Parse(Console.ReadLine());
         int a = 0;
         int b = 1;
-        Console.Write("0, 1, ");
-
-        for (int i = 1; i <= number - 2; i++)
+        Console.Write("0");
+        
+        if (number != 1)
         {
-            int sum = a + b;
-            a = b;
-            b = sum;
-            Console.Write("{0}, ", sum);
+            Console.Write(", 1");
+            for (int i = 1; i <= number - 2; i++)
+            {
+                Console.Write(", ");
+                int sum = a + b;
+                a = b;
+                b = sum;
+                Console.Write("{0}", sum);
+            }
         }
     }
 }

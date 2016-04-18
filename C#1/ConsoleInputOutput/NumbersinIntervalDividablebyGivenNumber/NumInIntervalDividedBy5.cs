@@ -8,17 +8,19 @@ class NumInIntervalDividedBy5
 {
     static void Main()
     {
-        Console.Write("Please enter start: ");
         int start = int.Parse(Console.ReadLine());
-        Console.Write("Please enter end: ");
         int end = int.Parse(Console.ReadLine());
+        int result = 0;
 
-        for (int i = start; i <= end; i++)
+        for (int i = start + 1; i < end; i++)
         {
-            bool check = i % 5 == 0;
-            if (check)
-                Console.Write("{0}, ", i);
+            if (i % 5 == 0)
+            {
+                result += 1;
+            }
         }
+
+        Console.WriteLine(result);
     }
 }
 

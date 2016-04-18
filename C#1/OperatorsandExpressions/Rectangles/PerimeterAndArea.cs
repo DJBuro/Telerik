@@ -3,20 +3,22 @@
 //Write an expression that calculates rectangle’s perimeter and area by given width and height.
 
 using System;
+using System.Globalization;
+using System.Threading;
+
 class PerimeterAndArea
 {
     static void Main()
     {
-        Console.WriteLine("Calculate rectangles perimeters and area \nInsert widht: ");
-        double widht = double.Parse(Console.ReadLine());
-        Console.WriteLine("Insert height: ");
+        Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
+        double witht = double.Parse(Console.ReadLine());
         double height = double.Parse(Console.ReadLine());
 
-        double perimeter = (2 * widht) + (2 * height);
-        double area = widht * height;
+        double perimeter = 2 * (witht + height);
+        double area = witht * height;
 
-        Console.WriteLine("Perimeter = {0}", perimeter);
-        Console.WriteLine("Area = {0}", area);
+        string outputFormat = "{0:0.00} {1:0.00}";
+        Console.WriteLine(outputFormat, area, perimeter);
     }
 }
 

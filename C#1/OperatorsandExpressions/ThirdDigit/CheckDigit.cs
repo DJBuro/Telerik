@@ -7,10 +7,9 @@ class CheckDigit
 {
     static void Main()
     {
-        Console.WriteLine("Check third digit (from right to left) if it 7\nPlease enter number: ");
         int number = int.Parse(Console.ReadLine());
         int divider = number / 100;
         bool result = (divider % 10 == 7);
-        Console.WriteLine(result);
+        Console.WriteLine(result.ToString().ToLower());
     }
 }

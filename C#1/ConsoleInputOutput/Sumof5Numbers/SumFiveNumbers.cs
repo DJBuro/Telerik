@@ -3,19 +3,24 @@
 //Write a program that enters 5 numbers (given in a single line, separated by a space), calculates and prints their sum.
 
 using System;
+using System.Collections.Generic;
 class SumFiveNumbers
 {
     static void Main()
     {
-        Console.Write("Please enter numbers: ");
-        string[] number = Console.ReadLine().Split();
-        double a = Convert.ToDouble(number[0]);
-        double b = Convert.ToDouble(number[1]);
-        double c = Convert.ToDouble(number[2]);
-        double d = Convert.ToDouble(number[3]);
-        double e = Convert.ToDouble(number[4]);
-        double sumOfAll = a + b + c + d + e;
-        Console.WriteLine(sumOfAll);
+        var numbers = new List<double>();
+        double result = 0;
+        for (int i = 0; i < 5; i++)
+        {
+            numbers.Add(double.Parse(Console.ReadLine()));
+        }
+
+        foreach (var number in numbers)
+        {
+            result += number;
+        }
+
+        Console.WriteLine(result);
     }
 }
 

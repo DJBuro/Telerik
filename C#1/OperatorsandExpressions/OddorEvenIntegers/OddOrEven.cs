@@ -6,14 +6,13 @@ class OddOrEven
 {
     static void Main()
     {
-        Console.WriteLine("Check if integer is odd or even\nx=");
         int number = int.Parse(Console.ReadLine());
         while (true)
         {
             if (number % 2 == 0)
-            Console.WriteLine("X is even");
+            Console.WriteLine("even {0}", number);
             else
-            Console.WriteLine("X is odd");
+            Console.WriteLine("odd {0}", number);
             break;
         }
     }

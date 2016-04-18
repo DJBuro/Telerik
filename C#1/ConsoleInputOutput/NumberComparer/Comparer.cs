@@ -8,12 +8,10 @@ class Comparer
 {
     static void Main()
     {
-        Console.Write("Please enter first number: ");
-        int firstNumber = int.Parse(Console.ReadLine());
-        Console.Write("Please enter second number: ");
-        int secondNumber = int.Parse(Console.ReadLine());
+        double firstNumber = double.Parse(Console.ReadLine());
+        double secondNumber = double.Parse(Console.ReadLine());
 
-        Console.WriteLine((firstNumber > secondNumber ? firstNumber : secondNumber) +  " is greater!");
+        Console.WriteLine(Math.Max(firstNumber, secondNumber));
     }
 }
 

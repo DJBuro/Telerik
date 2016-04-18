@@ -6,24 +6,18 @@ class Divide
 {
     static void Main()
     {
-        Console.WriteLine("Check if your number can be divided by 7 and 5 (without reminder)\nx= :");
         int number = int.Parse(Console.ReadLine());
-        bool devideBySeven = false;
-        bool devideByFive = false;
-        while (true)
-        {
-            if (number % 7 == 0)
-                devideBySeven = true;
-            break;
-        }
-        while (true)
+        bool result = false;
+
+        if (number % 7 == 0)
         {
             if (number % 5 == 0)
-                devideByFive = true;
-            break;
+            {
+                result = true;
+            }
         }
-        bool result = (devideBySeven && devideByFive);
-        Console.WriteLine(result);
+
+        Console.WriteLine(result.ToString().ToLower() + " " + number);
     }
 }
 

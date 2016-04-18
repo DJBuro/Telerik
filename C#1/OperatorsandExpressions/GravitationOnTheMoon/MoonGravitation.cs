@@ -7,10 +7,9 @@ class MoonGravitation
 {
     static void Main()
     {
-        Console.WriteLine("Your weight on Earth is:");
         double earthWeight = double.Parse(Console.ReadLine());
-        double moonWeight = (earthWeight * 0.17);
-        Console.WriteLine("Your weight on Moon is: {0}", moonWeight);
+        double moonWeight = earthWeight * 0.17;
+        Console.WriteLine(moonWeight.ToString("N3"));
     }
 }
 
